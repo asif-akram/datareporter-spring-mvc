@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/world_DB" auth="Container"
+           type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
+           url="jdbc:mysql://localhost:3306/worlddb_11_12_12"
+           username="root" password="sudamihPW" maxActive="30" maxIdle="10"/>
+</Context>

@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+body {
+	background:#001527;
+}
+
+#menu {background:url(#{request.contextPath}/resources/gfx/menu2/menu_border.gif) top left no-repeat;margin-top:30px}
+#menu ul {background:url(#{request.contextPath}/resources/gfx/menu2/menu_border.gif) top right no-repeat;width:100%;overflow:hidden}
+#menu li {float:left;padding-left:2px}
+#menu li a {display:block;height:66px;width:198px;font-size:24px;padding-top:90px;text-align:center;text-decoration:none;text-transform:uppercase}
+#menu li a:hover{text-decoration:unerline;}
+
+.body6 {background:url(#{request.contextPath}/resources/gfx/menu2/bg_top3_repeat.jpg) repeat;padding:28px 28px}

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EAECEE;
+    font-family: Verdana, sans-serif;
+    font-size: 0.9em;
+}
+#container {
+    margin: 0 auto;
+    /* width: 940px;  subtract 40px from banner width for padding 
+    background: #FFFFFF url(#{request.contextPath}/resources/gfx/banner.png) no-repeat; */
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    color: #666666;
+    font-size:30px;
+}
+code {
+    font-size: 1.1em;
+}
+span.invalid {
+    padding-left: 3px;
+    color: red;
+}
+
+#headerImg {
+	width:132px;
+	position:relative; left:795px;
+}
+
+.container p {
+	color: #fff;
+	line-height: 100px;
+	background: #CCCCCC;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+table, td, th {
+	border:1px solid green;
+}
+th {
+	background-color:green;
+	color:white;
+}
+
+
+
+
+
