@@ -22,7 +22,7 @@ public class TilesController {
 		
 		//model.addAttribute("articles", listService.getLists());
 		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.addObject("message", "Spring 3 MVC Hello World");				
+		modelAndView.addObject("message", "");				
 		modelAndView.setViewName("welcome");
 		return modelAndView;
 	}

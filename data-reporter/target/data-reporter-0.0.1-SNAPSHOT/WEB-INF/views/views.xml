@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition"  template="/WEB-INF/tiles-pages/layout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/tiles-pages/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/tiles-pages/menu.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/tiles-pages/footer.jsp" />
+    </definition>
+ 
+    <definition name="welcome" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Welcome Page" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/welcome.jsp" />
+    </definition>
+    
+    <definition name="browseSilos" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Browse Silos" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/browseSilos.jsp" />
+    </definition>
+    
+     <definition name="browseDatasets" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Browse Datasets" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/browseDatasets.jsp" />
+    </definition>
+    
+    <definition name="browseItems" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Browse Items" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/browseItems.jsp" />
+    </definition>
+    
+     <definition name="browseStats" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Browse Stats" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/browseStats.jsp" />
+    </definition>
+    
+    <definition name="customStats" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Custom Stats" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/customStats.jsp" />
+    </definition>
+ 
+</tiles-definitions>

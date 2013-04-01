@@ -352,7 +352,7 @@ public class Datasets {
 				}
 			};
 
-			String xpathStr = "//rdf:RDF/oxds:Grouping/ore:aggregates/@rdf:resource";
+			String xpathStr = "//rdf:RDF/oxds:DataSet/ore:aggregates/@rdf:resource";
 			XPathFactory xpathFact = XPathFactory.newInstance();
 			XPath xpath = xpathFact.newXPath();
 			xpath.setNamespaceContext(ctx);

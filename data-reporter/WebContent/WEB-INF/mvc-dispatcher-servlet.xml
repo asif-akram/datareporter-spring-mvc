@@ -27,7 +27,6 @@
 			value="org.springframework.web.servlet.view.tiles2.TilesView" />
 	</bean>
 
-
 	<bean class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
 		<property name="definitions">
 			<list>
@@ -45,5 +44,9 @@
 			<value>.jsp</value>
 		</property>
 	</bean>
+	
+	<bean id="solrPeopleServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
+        <constructor-arg value="http://127.0.0.1:8080/solr/people"/>
+</bean>
 
 </beans>

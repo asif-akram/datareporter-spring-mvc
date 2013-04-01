@@ -1,0 +1,229 @@
+body {
+	color: #333333;
+	font-family: 'Lucida Grande',sans-serif;
+	font-size: 0.75em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: center;
+}
+
+#body {
+	width: 900px;
+	text-align: left;	
+	font-size: 1.75em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+#header {
+	background: url(../images/OxLogo1A.png) no-repeat top right;
+	background-size: Auto 80%;	
+	text-align: left;	
+	color: white;
+	font-size:30px;
+	font-family:"Times New Roman",Times,serif;
+	margin-top: -47px;
+	margin-bottom: -47px;	
+	height:200px;
+}
+
+#headerTD{
+	background: #0B173B;		
+}
+
+#menu {	
+	width: 200px;
+	background: #BDBDBD;
+}
+
+#menu li {list-style: none; float:center}
+#menu li a {background:url(../images/menu_bg1.png) top repeat-x; border-top:1px solid #3f5f74;border-left:1px solid #3f5f74;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;
+	display:block;font-size:18px;text-decoration:none;color:#757272; position:relative;line-height:37px;padding:0 20px;margin:0 1px 1px 0}
+#menu li a:hover {color:#3a5b70;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px; color:#254117;
+	background:url(../images/menu_bg.gif) top repeat-x;border-bottom:1px solid #3f5f74;border-right:1px solid #3f5f74;margin:0}
+
+#footer {
+    clear: both;
+    text-align: center;
+    color: #666666;
+    font-size:30px;
+}
+
+a {
+	color: #CCC;
+}
+
+th label {
+	font-size: 0.75em;
+	font-weight: normal;
+}
+
+td label {
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
+table.horizontalRuled td {
+  border-bottom: 1px solid #BBBBBB;	
+}
+
+fieldset {
+	margin: 10px 0pt;
+}
+
+.spitItSubmitIt {
+  width:100%;
+  text-align:right;
+}
+
+fieldset input[type="text"],input[type="password"],select,checkbox {
+	border: 1px solid #AAAAAA;
+	margin-right: 3px;
+	padding: 4px 2px;
+}
+
+fieldset input[type="text"],input[type="password"] {
+	width: 12em;
+}
+
+fieldset small {
+	color: #777777;
+	font-size: 0.7em;
+}
+
+fieldset th {
+	font-weight: normal;
+	padding-top: 10px;
+	text-align: right;
+	width: 8em;
+}
+
+fieldset th,td {
+	padding: 7px 3px;
+	vertical-align: top;
+}
+
+a img,form,fieldset {
+	border: 0pt none;
+}
+
+#side .signin #email,#side .signin #pass {
+	background: #FFFFFF none repeat scroll 0%;
+	border: 1px solid #86BC46;
+	display: block;
+	font-size: 0.92em;
+	padding: 4px 2px;
+	width: 158px;
+}
+
+#side .notify {
+	line-height: 1.5;
+	padding: 5px 0pt;
+	text-align: center;
+}
+
+#side .notify {
+	background: #FFFFFF none repeat scroll 0%;
+	border: 1px solid #87BC44;
+	font-weight: bold;
+	margin: 10px -3px;
+	padding: 2px 5px;
+}
+
+#content h2 {
+	margin: 13px 0pt 4px;
+}
+
+h2 {
+	font-weight: normal;
+	line-height: 1.2em;
+}
+
+* {
+	padding: 0px;
+}
+
+#spittle textarea {
+	width: 535px;
+	font-family: 'Lucida Grande', sans-serif;
+	font-size: 1.15em;
+}
+
+.status-btn {
+	padding: 10px 10px;
+	cursor: default;
+	font-size: 12pt;
+}
+
+label {
+	font-size: 20px;
+}
+
+
+ol.spittle-list {
+	font-size: 1.0em;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+ol.spittle-list li:first-child {
+  border-top: 1px solid #EEEEEE;
+}
+
+ol.spittle-list li {
+	font-size: 1.2em;
+	border-bottom: 1px solid #EEEEEE;
+	line-height: 1.1em;
+	padding: 0.7em 0 0.6em;
+	position: relative;
+}
+
+.submit {
+	background: transparent;
+	border-top: 0px;
+	border-left: 0px;
+	border-right:0px;
+	border-bottom: 1px solid #00F;
+	color: #00F;
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+*:first-child+html .submit {
+  border-bottom: 0;
+  text-decoration: underline;	
+}
+
+
+* html .submit {
+  border-bottom: 0;
+  text-decoration: underline;	
+}
+
+.spittleListImage {
+  display:block;
+  position:absolute;
+  width:50px;
+}
+	
+.spittleListText {
+  display:block;
+  width:500px;
+  margin-left:56px;
+  min-height:50px;
+}
+
+span.error {
+	color: red;
+	font-size: 8pt;
+}

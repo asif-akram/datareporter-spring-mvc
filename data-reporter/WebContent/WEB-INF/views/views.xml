@@ -22,8 +22,97 @@
     </definition>
     
      <definition name="browseDatasets" extends="base.definition">
-        <put-attribute name="title" value="Another Title" />
+        <put-attribute name="title" value="DaMaRO Browse Datasets" />
         <put-attribute name="body" value="/WEB-INF/tiles-pages/browseDatasets.jsp" />
     </definition>
+    
+    <definition name="browseItems" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Browse Items" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/browseItems.jsp" />
+    </definition>
+    
+     <definition name="browseStats" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Browse Stats" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/browseStats.jsp" />
+    </definition>
+    
+    <definition name="presetReport" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Browse Stats" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/presetReport.jsp" />
+    </definition>
+    
+    <definition name="customStats" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Custom Stats" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/customStats.jsp" />
+    </definition>
  
+ 	<definition name="search" extends="base.definition">
+        <put-attribute name="title" value="DaMaRO Custom Stats" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/search.jsp" />
+    </definition>    
+    
+    <definition name="snapshotReport" extends="base.definition">
+        <put-attribute name="title" value="DataFinder Snapshot" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/snapshotReport.jsp" />
+    </definition>
+    
+    <definition name="universityReport" extends="base.definition">
+        <put-attribute name="title" value="Full University Report" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/universityReport.jsp" />
+    </definition>
+    
+    <definition name="departmentReport" extends="base.definition">
+        <put-attribute name="title" value="Departmental Report" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/departmentReport.jsp" />
+    </definition>
+    
+    <definition name="divisionReport" extends="base.definition">
+        <put-attribute name="title" value="Divisional Report" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/divisionReport.jsp" />
+    </definition>
+    
+    <definition name="personalReport" extends="base.definition">
+        <put-attribute name="title" value="Personal Report" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/personalReport.jsp" />
+    </definition>
+    
+    <definition name="researchGroupReport" extends="base.definition">
+        <put-attribute name="title" value="Research Group Report" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/researchGroupReport.jsp" />
+    </definition>
+    
+    <definition name="fundingCouncilReport" extends="base.definition">
+        <put-attribute name="title" value="Funding Council Report" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/fundingCouncilReport.jsp" />
+    </definition>
+    
+    <definition name="individualRecordReport" extends="base.definition">
+        <put-attribute name="title" value="Individual record report" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/individualRecordReport.jsp" />
+    </definition>
+    
+    <definition name="retentionAssessmentReport" extends="base.definition">
+        <put-attribute name="title" value="Records requiring retention assessment" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/retentionAssessmentReport.jsp" />
+    </definition>
+    
+    <definition name="lackManFieldsReport" extends="base.definition">
+        <put-attribute name="title" value="Records lacking mandatory fields" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/lackManFieldsReport.jsp" />
+    </definition>
+    
+    <definition name="missingDOIReport" extends="base.definition">
+        <put-attribute name="title" value="Records lacking DOIs?" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/missingDOIReport.jsp" />
+    </definition>
+    
+    <definition name="registryQueryForm" extends="base.definition">
+        <put-attribute name="title" value="Query Metadata Registry" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/registryQueryForm.jsp" />
+    </definition>
+    
+    <definition name="registryQuery" extends="base.definition">
+        <put-attribute name="title" value="Query Metadata Registry" />
+        <put-attribute name="body" value="/WEB-INF/tiles-pages/registryQuery.jsp" />
+    </definition>
 </tiles-definitions>

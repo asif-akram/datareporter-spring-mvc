@@ -19,7 +19,7 @@ public class DataBankClientServiceImpl implements DataBankClientService{
 		
 		System.out.println("DatabankClient.getSilos()");
 		WebResource webResource = WebResourceBuilder.getInstance(
-				"http://163.1.127.173/", "userName", "password").getWebResource();
+				"http://163.1.127.173/", "eidcsr", "eidcsr").getWebResource();
 
 		System.out.println("Silos().getAllSilosAsJSON()");
 		String[] silosName = new Silos().getAllSilosAsJSON(webResource);
@@ -33,7 +33,7 @@ public class DataBankClientServiceImpl implements DataBankClientService{
 		System.out.println("DatabankClient.getDatasets()");
 		
 		WebResource webResource = WebResourceBuilder.getInstance(
-				"http://163.1.127.173/", "userName", "password").getWebResource();
+				"http://163.1.127.173/", "eidcsr", "eidcsr").getWebResource();
 		
 		String[] dataPackagesName = new Silos().getSiloAsJSON(webResource, siloName);
 
@@ -44,7 +44,7 @@ public class DataBankClientServiceImpl implements DataBankClientService{
 	
 	public List<String> getItems(String siloName, String datasetName){
 		WebResource webResource = WebResourceBuilder.getInstance(
-				"http://163.1.127.173/", "userName", "password").getWebResource();
+				"http://163.1.127.173/", "eidcsr", "eidcsr").getWebResource();
 		
 		webResource = webResource.path(siloName);
 		String[] itemsName = new Datasets().getDataSetAsXML(webResource, "datasets", datasetName);
